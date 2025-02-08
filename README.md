@@ -1,1 +1,2 @@
-# Horizon-Website
+# Important Notice:
+This code and all its associated content, designs, and assets are the intellectual property of the creator and are protected under copyright law. Unauthorized use, reproduction, distribution, or modification of this code without proper permission is strictly prohibited. Any attempts to steal, copy, or repurpose this code without the rightful consent will be met with legal action. We ask that you respect the time, effort, and resources that went into creating this unique and valuable project. Please do not attempt to use this code for personal gain or redistribute it in any form. By using or interacting with this site, you agree to comply with these terms and support the integrity of the work.
