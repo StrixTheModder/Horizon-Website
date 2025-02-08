@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizon Mod Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #111;
+      padding: 20px 40px;
+      border-bottom: 1px solid #333;
+      position: relative;
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-left: auto;
+    }
+
+    .nav-button {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #fff;
+      padding: 10px 20px;
+      background-color: #222;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    }
+
+    .nav-button:hover {
+      background-color: #555;
+      transform: scale(1.1);
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .hero {
+      position: relative;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    #particles-js {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      z-index: 1;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #ccc;
+      margin-bottom: 30px;
+      z-index: 1;
+    }
+
+    .cta-button {
+      text-decoration: none;
+      color: #fff;
+      background-color: #007bff;
+      padding: 15px 30px;
+      border-radius: 5px;
+      font-weight: bold;
+      z-index: 1;
+      transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #0056b3;
+      transform: scale(1.1);
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Gray line between sections */
+    .separator {
+      width: 100%;
+      height: 2px;
+      background-color: #555;
+      margin: 0;
+    }
+
+    .why-choose-us {
+      padding: 50px 20px;
+      background-color: #222;
+      text-align: center;
+      margin-top: 0;
+    }
+
+    .why-choose-us h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .why-choose-us p {
+      font-size: 18px;
+      color: #ccc;
+      max-width: 800px;
+      margin: 0 auto 20px auto;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      gap: 30px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .feature {
+      background-color: #333;
+      color: #fff;
+      padding: 30px;
+      border-radius: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+      border: 5px solid #888;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .feature:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.7);
+    }
+
+    .feature h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      font-size: 16px;
+      color: #bbb;
+    }
+
+    .footer {
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      background-color: #111;
+    }
+
+    .navbar img {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <img src="https://i.ibb.co/k2KwvV2K" alt="Horizon Logo">
+    <div class="nav-buttons">
+      <a href="index.html" class="nav-button">Home</a>
+      <a href="info.html" class="nav-button">Info</a>
+      <a href="credits.html" class="nav-button">Credits</a>
+    </div>
+  </header>
+
+  <!-- Hero Section with Particle Background -->
+  <section class="hero">
+    <div id="particles-js"></div>
+    <h1>Welcome to Horizon</h1>
+    <p>Your ultimate mod menu solution.</p>
+    <a href="https://discord.gg/bpehk7Tc" target="_blank" class="cta-button">Join Our Discord</a>
+  </section>
+
+  <!-- Separator line between Hero and Why Choose Us -->
+  <div class="separator"></div>
+
+  <section class="why-choose-us">
+    <h2>Why Choose Us?</h2>
+    <p>
+      Horizon offers the most reliable and feature-packed mod menu available. With years of experience
+      and a dedicated team, we ensure top-notch performance and seamless integration for your needs.
+    </p>
+    <div class="features">
+      <div class="feature">
+        <h3>Undetected</h3>
+        <p>Our menu remains undetected, giving you a secure and uninterrupted experience.</p>
+      </div>
+      <div class="feature">
+        <h3>Safety</h3>
+        <p>Built with top-tier security to protect your accounts and data at all times.</p>
+      </div>
+      <div class="feature">
+        <h3>Free</h3>
+        <p>Experience all the features without any hidden costs. Our mod menu is completely free!</p>
+      </div>
+      <div class="feature">
+        <h3>Reliability</h3>
+        <p>We have a proven track record of providing dependable and consistent service.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <p>&copy; 2025 Horizon Mod Menu. All rights reserved.</p>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS('particles-js', {
+      "particles": {
+        "number": {
+          "value": 50,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle"
+        },
+        "opacity": {
+          "value": 0.5
+        },
+        "size": {
+          "value": 3,
+          "random": true
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "out_mode": "out"
+        }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
